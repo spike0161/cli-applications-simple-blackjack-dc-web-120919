@@ -25,7 +25,8 @@ def end_game(card_total)
 end
 
 def initial_round(sum)
- deal_card + deal_card
+ sum = deal_card + deal_card
+return sum
 # binding.pry
 display_card_total
 puts "Your cards add up to #{sum} "
