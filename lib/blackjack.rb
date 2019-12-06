@@ -40,9 +40,7 @@ card_total
   end
 
 def invalid_command
-  if get_user_input !== "s" || "h"
-  puts "Please enter a valid command"
-end
+ puts "Invalid"
 end
 
 #####################################################
