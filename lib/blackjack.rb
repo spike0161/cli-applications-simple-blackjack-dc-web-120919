@@ -28,8 +28,8 @@ def initial_round(sum)
  sum = deal_card + deal_card
 return sum
 # binding.pry
-display_card_total
-puts "Your cards add up to #{sum} "
+# display_card_total
+# puts "Your cards add up to #{sum} "
 end
 
 def hit?
