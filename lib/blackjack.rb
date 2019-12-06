@@ -8,7 +8,7 @@ end
 
 def display_card_total(card_total)
 card_total = rand{11}
-puts card_total
+print card_total
 end
 
 def prompt_user
