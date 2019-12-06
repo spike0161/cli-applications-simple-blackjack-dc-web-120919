@@ -31,8 +31,8 @@ def initial_round
 end
 
 def hit?(card_total)
-  # code hit? here
-end
+  prompt_user
+  end
 
 def invalid_command
   puts "Please enter a valid command"
