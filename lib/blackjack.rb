@@ -54,7 +54,7 @@ end
 #####################################################
 
 def runner
-  welcome()
-  total = initial_round
+puts welcome
+  
 end
     
