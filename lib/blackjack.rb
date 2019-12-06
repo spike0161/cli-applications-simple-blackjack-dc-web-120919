@@ -27,7 +27,7 @@ end
 
 def initial_round
  deal_card + deal_card
- binding.pry
+# binding.pry
 puts "Your cards add up to #{display_card_total} "
 end
 
