@@ -29,7 +29,8 @@ def initial_round
 
 binding.pry
 
-# puts "Your cards add up to #{display_card_total} "
+puts display_card_total
+return "Your cards "
 end
 
 def hit?
