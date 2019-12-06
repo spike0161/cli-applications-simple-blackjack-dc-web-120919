@@ -27,7 +27,7 @@ end
 def initial_round
  deal_card + deal_card
 
-binding.pry
+# binding.pry
 
 puts display_card_total
 return "Your cards "
